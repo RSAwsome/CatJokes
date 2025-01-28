@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    /* background-color: #3B1E54; */
+    background-image: url("https://www.vets4pets.com/siteassets/species/cat/cat-close-up-of-side-profile.jpg");
+    background-size: cover;
+    opacity:0.8;
+}
+div{
+    height : 300px;
+    width :600px;
+    border-radius: 15px;
+    border:3px solid #4b8719;
+    /* background-color: #9B7EBD; */
+    
+    margin-top:-150px;
+    margin-left: -2px; 
+    /* m-l = 1/2widt */
+    align-items: center;
+    position:absolute;
+    top:50%;
+    left:50%; 
+    box-shadow: 1.5px 1.5px 2px black;
+    display:flex;
+    flex-direction: column;
+    transition:box-shadow 0.2s ease-out 0.2s;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.25rem;
+}
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    width:150px;
+    font-size: 1rem;
+    background-color: #A9C46C;
+    box-shadow: 2px 2px 4px #809D3C;
+    border-radius: 5px;
+    transition:box-shadow 0.2s ease-out 0.2s;
+}
+button:hover{
+    box-shadow: 2px 2px 6px #395103;
+}
+div:hover{
+    box-shadow: 2px 2px 6px #4d6611;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:2px 2px;
+    font-weight: 500;
+}
